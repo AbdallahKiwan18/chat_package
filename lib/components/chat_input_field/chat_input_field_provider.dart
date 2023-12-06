@@ -8,6 +8,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:record/record.dart';
 import 'package:stop_watch_timer/stop_watch_timer.dart';
+import 'package:path_provider/path_provider.dart';
 
 class ChatInputFieldProvider extends ChangeNotifier {
   final Function(ChatMessage? audioMessage, bool cancel) handleRecord;
@@ -140,7 +141,11 @@ class ChatInputFieldProvider extends ChangeNotifier {
       _record.stop();
     }
 
+    String documentsDirectory = (await getApplicationDocumentsDirectory()).path;
+    String filePath = '$documentsDirectory/audio.m4a';
+
     await _record.start(
+      path: filePath,
       // path: 'aFullPath/myFile.m4a', // required
       bitRate: 128000, // by default
       // sampleRate: 44100, // by default

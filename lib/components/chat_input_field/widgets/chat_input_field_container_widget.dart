@@ -93,7 +93,7 @@ class _ChatTextViewWidgetState extends State<ChatInputFieldContainerWidget> {
                   ? kErrorColor
                   : Theme.of(context)
                       .textTheme
-                      .bodyText1!
+                      .bodyLarge!
                       .color!
                       .withOpacity(0.64),
             ),
