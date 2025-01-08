@@ -419,10 +419,10 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-      sha256: dbf0f707c78beedc9200146ad3cb0ab4d5da13c246336987be6940f026500d3a
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.3"
+    version: "2.1.8"
   process:
     dependency: transitive
     description:
@@ -443,50 +443,58 @@ packages:
     dependency: transitive
     description:
       name: record
-      sha256: e7100b03bcb0a8ecec86035247b7b9ad5ca92dd7e6f22f5885f2a1d64ff525d1
+      sha256: "8cb57763d954624fbc673874930c6f1ceca3baaf9bfee24b25da6fd451362394"
       url: "https://pub.dev"
     source: hosted
-    version: "4.4.3"
+    version: "5.2.0"
+  record_android:
+    dependency: transitive
+    description:
+      name: record_android
+      sha256: "0b4739a2502fff402b0ac0ff1d6b2740854d116d78e06a4a16b3989821f84446"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.0"
+  record_darwin:
+    dependency: transitive
+    description:
+      name: record_darwin
+      sha256: e487eccb19d82a9a39cd0126945cfc47b9986e0df211734e2788c95e3f63c82c
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
   record_linux:
     dependency: transitive
     description:
       name: record_linux
-      sha256: "32b8937bae11b7224237e4b2514197808e6ab11e3dfc6ffa37add69d1834cd8e"
+      sha256: "74d41a9ebb1eb498a38e9a813dd524e8f0b4fdd627270bda9756f437b110a3e3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.4"
-  record_macos:
-    dependency: transitive
-    description:
-      name: record_macos
-      sha256: d1d0199d1395f05e218207e8cacd03eb9dc9e256ddfe2cfcbbb90e8edea06057
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.2"
+    version: "0.7.2"
   record_platform_interface:
     dependency: transitive
     description:
       name: record_platform_interface
-      sha256: "7a2d4ce7ac3752505157e416e4e0d666a54b1d5d8601701b7e7e5e30bec181b4"
+      sha256: "8a575828733d4c3cb5983c914696f40db8667eab3538d4c41c50cbb79e722ef4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.0"
+    version: "1.2.0"
   record_web:
     dependency: transitive
     description:
       name: record_web
-      sha256: "219ffb4ca59b4338117857db56d3ffadbde3169bcaf1136f5f4d4656f4a2372d"
+      sha256: "10cb041349024ce4256e11dd35874df26d8b45b800678f2f51fd1318901adc64"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.0"
+    version: "1.1.4"
   record_windows:
     dependency: transitive
     description:
       name: record_windows
-      sha256: "8a5f10652ac7a3aa004429e254a9f35e4d1b47265521edaca62544e19354e1b8"
+      sha256: "7bce0ac47454212ca8bfa72791d8b6a951f2fb0d4b953b64443c014227f035b4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.2"
+    version: "1.0.4"
   rxdart:
     dependency: transitive
     description:
@@ -588,6 +596,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.5"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: cd3543bd5798f6ad290ea73d210f423502e71900302dde696f8bff84bf89a1cb
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   win32:
     dependency: transitive
     description:
@@ -605,5 +621,5 @@ packages:
     source: hosted
     version: "0.2.0+2"
 sdks:
-  dart: ">=3.3.0 <4.0.0"
+  dart: ">=3.4.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"

@@ -13,7 +13,7 @@ dependencies:
   permission_handler: ^10.2.0
   image_picker: ^0.8.6
   just_audio: ^0.9.30
-  record: ^4.4.3
+  record: ^5.2.0
   intl: ^0.17.0
   photo_view: ^0.14.0
   stop_watch_timer: ^2.0.0
